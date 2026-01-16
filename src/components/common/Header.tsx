@@ -136,13 +136,15 @@ const Header = () => {
                 About Me
               </Link>
             </motion.div>
-
-            <motion.button
-              whileHover={{ scale: 1.05 }}
-              className="px-4 py-2 text-sm font-semibold bg-brand-red text-white rounded-md hover:bg-opacity-90 transition-smooth"
-            >
-              Download Resume
-            </motion.button>
+            <motion.div whileHover={{ scale: 1.05 }}>
+             <Link
+                href="/pm-tools-sandbox"
+                onClick={() => setIsMobileMenuOpen(false)}
+                className="w-full px-4 py-3 text-sm font-semibold bg-brand-red text-white rounded-md hover:bg-opacity-90 transition-smooth"
+              >
+                PM Tools Sandbox
+              </Link>
+              </motion.div>
           </div>
 
           {/* Mobile Toggle */}
@@ -193,9 +195,15 @@ const Header = () => {
                 About Me
               </Link>
 
-              <button className="w-full px-4 py-3 text-sm font-semibold bg-brand-red text-white rounded-md hover:bg-opacity-90 transition-smooth">
-                Download Resume
-              </button>
+               <Link
+                href="/pm-tools-sandbox"
+                onClick={() => setIsMobileMenuOpen(false)}
+                className="w-full px-4 py-3 text-sm font-semibold bg-brand-red text-white rounded-md hover:bg-opacity-90 transition-smooth"
+              >
+                PM Tools Sandbox
+              </Link>
+
+      
             </div>
           </motion.div>
         )}

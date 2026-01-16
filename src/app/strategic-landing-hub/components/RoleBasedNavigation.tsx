@@ -37,7 +37,7 @@ const RoleBasedNavigation = () => {
       },
       secondaryActions: [
         { label: 'Case Studies', href: '/case-study-theater' },
-        { label: 'Download Resume', href: '#' }
+        { label: 'Schedule Call', href: '/schedule' }
       ],
       color: 'brand-blue'
     },
@@ -48,8 +48,8 @@ const RoleBasedNavigation = () => {
       description:
         'Quick access to verified experience overview, resume profile and leadership competencies for candidate evaluation.',
       primaryAction: {
-        label: 'Download Resume',
-        href: '#'
+        label: 'Schedule Conversation',
+        href: '/schedule'
       },
       secondaryActions: [
         { label: 'View Credentials', href: '#' },
@@ -59,7 +59,7 @@ const RoleBasedNavigation = () => {
     },
     {
       id: 3,
-      role: 'Fellow Product Manager',
+      role: 'Fellow PM',
       icon: 'AcademicCapIcon',
       description:
         'Explore practical frameworks, delivery methods and real product workflows used in real-world teams.',
@@ -85,7 +85,7 @@ const RoleBasedNavigation = () => {
       },
       secondaryActions: [
         { label: 'Frameworks', href: '/framework-methodology-center' },
-        { label: 'Collaborate', href: '#' }
+        { label: 'Collaborate', href: '/schedule' }
       ],
       color: 'accent'
     }

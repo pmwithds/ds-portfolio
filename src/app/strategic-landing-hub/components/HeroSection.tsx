@@ -117,11 +117,13 @@ const HeroSection = () => {
                 <Icon name="DocumentTextIcon" size={18} />
                 <span>View Case Studies</span>
               </Link>
-
-              <button className="inline-flex items-center justify-center space-x-2 px-8 py-4 bg-primary-foreground text-primary-foreground border border-primary-foreground rounded-lg font-semibold hover:bg-primary-foreground/20 transition">
-                <Icon name="ArrowDownTrayIcon" size={18} className="text-[#1a365d]" />
-                <span className="text-[#1a365d]">Download Resume</span>
-              </button>
+               <Link
+                href="/pm-tools-sandbox"
+                className="inline-flex items-center justify-center space-x-2 px-8 py-4 bg-primary-foreground text-primary-foreground border border-primary-foreground rounded-lg font-semibold hover:bg-primary-foreground/20 transition"
+              >
+                <Icon name="ArrowFowardTrayIcon" size={18} className="text-[#1a365d]"/>
+                <span  className="text-[#1a365d]">PM Tools Sandbox</span>
+              </Link>
 
             </div>
 

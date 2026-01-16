@@ -33,7 +33,7 @@ const Footer = () => {
       links: [
         { name: 'Blog', href: '/thought-leadership-blog' },
         { name: 'PM Tools', href: '/pm-tools-sandbox' },
-        { name: 'Download Resume', href: '#' },
+        { name: 'Schedule Conversation', href: '/schedule' },
         { name: 'Contact', href: '/schedule' }
       ]
     },
